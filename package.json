@@ -1,0 +1,14 @@
+{
+  "name": "graphical",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SparksFullStack/graphical.git",
+  "author": "SparksFullStack <csparks@antioch.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1",
+    "lodash": "^4.17.11"
+  }
+}
