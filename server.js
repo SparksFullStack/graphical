@@ -8,6 +8,7 @@ const port = process.env.PORT || 3001;
 const server = express();
 
 server.use(express.json());
+
 // Making use of middleware to enable Graphiql based requests
 server.use('/graphql', expressGraphQL({
     schema: schema,
